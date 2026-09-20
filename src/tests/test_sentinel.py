@@ -6,7 +6,8 @@ import os
 
 # Add lambda source dir to path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../lambda")))
-import sentinel
+import sentinel  # noqa: E402
+
 
 
 class TestSentinel(unittest.TestCase):
