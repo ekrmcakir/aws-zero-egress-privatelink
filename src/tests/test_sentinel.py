@@ -9,7 +9,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../l
 import sentinel  # noqa: E402
 
 
-
 class TestSentinel(unittest.TestCase):
 
     def test_public_internet_egress_blocked(self):
